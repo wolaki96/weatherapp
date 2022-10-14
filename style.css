@@ -1,0 +1,83 @@
+h1 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    border-style: solid;
+    background: linear-gradient(to right, #0066cc 0%, #000066 100%)
+}
+.sidebar {
+    width: 300px;
+    align-content: left;
+    z-index: 1;
+    top: 20px;
+    left: 10px;
+    background: rgb(255, 255, 255);
+    overflow-x: hidden;
+    padding: 8px 0;
+  }
+
+  .sidebar div{
+    padding: 8px;
+    font-size: 12px;
+    display: block;
+    align-content: left;
+
+  }
+
+  button {
+    background: #0066cc;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border: none;
+    color: white;
+    text-align:center;
+    
+
+    font-size: 16px;
+    width:50%;
+
+}
+.cityButton {
+    background: grey;
+    color:black;
+
+}
+
+input[type=text] {
+    border: 2px black;
+    border-radius: 4px;
+    padding: 5px;
+    width: 50%;
+}
+
+p {
+    border: black;
+    font-size:16px;
+    padding:15px;
+    margin:5px;
+
+}
+.center {
+    padding: 70px 0;
+    border: 3px solid rgb(0, 0, 0);
+    align-content: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;;
+}
+.box{
+padding: 10px;
+  display: inline-flex;
+  justify-content: space-between;
+  margin: 1em;
+  flex-direction: row;
+  height: 400px;
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+  background-color: rgba(63, 25, 153, 0.3);
+  border: 2px solid rgb(41, 51, 111);
+  justify-content: center;
+}
